@@ -10,9 +10,7 @@
     align-content: start;
     grid-gap: 1vw;
 }
-#p_desktop{
-    display: none;
-}
+
 .titulo{
     grid-column: span 6;
     color: rgb(37, 36, 36);
@@ -20,6 +18,8 @@
     font-family: 'Karla', sans-serif;
     text-transform: uppercase;
 }
+
+/* ------ CABEÇALHO ------ */
 #logo{
     grid-column: 3/5;
 }
@@ -63,6 +63,8 @@ header{
     background-color: #ffffff;
     padding-top: 2vh;
 }
+
+/* ------ SECTIONS ------*/
 section{
     min-height: 120vh;
     width: 100vw;
@@ -71,6 +73,11 @@ section{
 }
 section div{
     grid-column: span 6;
+}
+
+/* ------ SOBRE ------ */
+#p_desktop{
+    display: none;
 }
 #sobre div div{
     float: left;
@@ -103,7 +110,7 @@ section div{
     font-family: 'Play', sans-serif;
 }
 
-
+/* ------ CURSOS ------ */
 #cursos div div{
     margin-bottom: 1vh;
 }
@@ -119,7 +126,6 @@ section div{
 #curso-wd{
     border-top:2vh solid#F08080;
 }
-
 #curso-prog{
     border-top:2vh solid#BDB76B;
 }
@@ -127,7 +133,7 @@ section div{
     border-top:2vh solid#5F9EA0;
 }
 
-
+/* ------ PLANOS ------ */
 #bronze{
     background-color: #cd7f32;
 }
@@ -185,7 +191,7 @@ section div{
     color: #4F4F4F;
 }
 
-
+/* ------ VALORES ------*/
 #h2qualidade{
     border-left: 8px solid #4682B4;
 }
@@ -221,6 +227,7 @@ section div{
     margin-top: 0.5vh;
 }
 
+/* ------ GALAXY FOLD ------ */
 @media only screen and (max-width: 280px){
     nav{
         width: 90vw;
@@ -265,6 +272,8 @@ section div{
         height: 60vh;
     }
 }
+
+/* ------ IPHONE 5/SE ------ */
 @media only screen and (width: 320px){
     nav ul{
         margin-left: 8.5vw
@@ -273,6 +282,8 @@ section div{
         padding-top: 4.5vh;
     }
 }
+
+/* ------ IPHONE 6/7/8 - IPHONE X ------ */
 @media only screen and (min-width: 375px){
     nav ul{
         margin-left: 13.5vw;
@@ -297,6 +308,8 @@ section div{
         font-size: 18px;
     }
 }
+
+/* ------ IPHONE 6/7/8 ------ */
 @media only screen and (min-width: 375px)
                 and (max-height: 670px){
                     #bronze{
@@ -323,6 +336,8 @@ section div{
         margin-left: 4.6vw;
     }
 }
+
+/* ------ PIXEL 2 - PIXEL 2 XL - IPHONE 6/7/8 PLUS ------ */
 @media only screen and (min-width: 400px){
     nav ul li{
         margin-left: 5vw;
@@ -357,6 +372,8 @@ section div{
         font-size: 18px;
     }
 }
+
+/* ------ PIXEL 2 XL ------ */
 @media only screen and (min-width: 400px)
                    and (min-height: 820px){
                         #bronze{
@@ -374,7 +391,9 @@ section div{
                         #valores  div div p{
                             font-size: 19px;
                         }
-                   }
+}
+
+/* ------ SURFACE DUO ------ */
 @media only screen and (min-width: 540px){
     nav ul li{
         margin-left: 8.2vw;
@@ -401,6 +420,8 @@ section div{
         height: 53vh;
     }
 }
+
+/* ------ IPAD ------ */
 @media only screen and (min-width: 760px){
     nav ul li a{
         margin-right: 5vw;
@@ -444,6 +465,8 @@ section div{
         font-size: 23px;
     }
 }
+
+/* ------ DESKTOP ------ */
 @media only screen and (min-width: 1024px){
     #logo{
         grid-column: 1/2;
@@ -580,6 +603,8 @@ section div{
         padding-top: 1vh;
     }
 }
+
+/* ------ IPAD PRO ------ */
 @media only screen and (min-width:1024px)
                     and (min-height:1366px){
     section{
