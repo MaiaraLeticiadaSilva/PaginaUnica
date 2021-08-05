@@ -253,9 +253,6 @@ section div{
     section{
         min-height: 90vh;
     }
-    #valores{
-        height: 100vh;
-    }
     #planos p{
         line-height: 5vh;
     }
@@ -558,12 +555,6 @@ section div{
         margin: 2.5vh 0 0 18%;
     }
 
-    #valores{
-        min-height: 100vh
-    }
-    #divvalores{
-        width: 95vw;
-    }
     #valores div div{
         width: 26vw;
         float: left;
@@ -582,5 +573,6 @@ section div{
     #divvalores{
         padding-left: 2.5vw;
         padding-top: 2vh;
+        width: 95vw;
     }
 }
